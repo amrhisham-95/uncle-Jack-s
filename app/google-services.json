@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "361238715866",
+    "project_id": "uncle-jack-s",
+    "storage_bucket": "uncle-jack-s.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361238715866:android:132aa9e8ef1f61605974e3",
+        "android_client_info": {
+          "package_name": "com.example.unclejacks"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUOwr6FaKfKWBWOLfNzQJrqOJEW_0BTUQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

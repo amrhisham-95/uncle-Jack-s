@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "361238715866",
+    "project_id": "uncle-jack-s",
+    "storage_bucket": "uncle-jack-s.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361238715866:android:132aa9e8ef1f61605974e3",
+        "android_client_info": {
+          "package_name": "com.example.unclejacks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "361238715866-49mm76ja58qlsgf150q8qjjom7kl64r4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.unclejacks",
+            "certificate_hash": "622a85a437e9322e074d55d18dc953ba8ebc2226"
+          }
+        },
+        {
+          "client_id": "361238715866-1l7uqoems91fr71bnat6ahnaov2e7lol.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUOwr6FaKfKWBWOLfNzQJrqOJEW_0BTUQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "361238715866-1l7uqoems91fr71bnat6ahnaov2e7lol.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

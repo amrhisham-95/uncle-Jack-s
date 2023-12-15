@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="loginFragmentEditTextStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:ems">10</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:paddingStart">70sp</item>
+        <item name="android:paddingEnd">2sp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColorHint">@color/black</item>
+    </style>
+
+    <style name="tabLayoutSelected">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="tabLayoutNotSelected">
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+</resources>

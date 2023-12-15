@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view" >
+
+
+
+    <item android:title="Home">
+        <menu>
+
+            <item
+                android:id="@+id/AllProductsItemNavDrawer"
+                android:title="All Products"
+                android:icon="@drawable/baseline_home_24"
+                />
+
+            <item
+                android:id="@+id/CategoriesItemNavDrawer"
+                android:title="Categories"
+                android:icon="@drawable/baseline_category_24"
+                />
+
+            <item
+                android:id="@+id/FavoriteItemNavDrawer"
+                android:title="My Favorite Products"
+                android:icon="@drawable/baseline_favorite_24"
+                />
+
+            <item
+                android:id="@+id/MyCartItemNavDrawer"
+                android:title="My Cart"
+                android:icon="@drawable/baseline_shopping_cart_24"
+                />
+
+        </menu>
+
+    </item>
+
+    <item android:title="Profile">
+        <menu>
+
+            <item
+                android:id="@+id/ProfileItem"
+                android:title="My Profile"
+                android:icon="@drawable/baseline_person_24"
+                />
+        </menu>
+
+    </item>
+
+    <item android:title="@string/sign_out">
+        <menu>
+            <item android:id="@+id/signOut"
+                android:title="Sign In With Another Account"
+                android:icon="@drawable/backarrow"
+                />
+
+        </menu>
+    </item>
+</menu>
