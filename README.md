@@ -7,12 +7,15 @@
 - Also App allows Choose any products from them and buy them.
 
 ## Screenshots
-![Screenshot 2023-10-19 181022](https://github.com/amrhisham-95/AlphaUp/assets/106347370/e3bc77dd-d0ae-4bed-8981-4c18a3edd2ae)    ![Screenshot 2023-10-19 181034](https://github.com/amrhisham-95/AlphaUp/assets/106347370/a5fc2e08-31b8-491c-97e6-a0b9d5b9240d)
-![Screenshot 2023-10-19 181043](https://github.com/amrhisham-95/AlphaUp/assets/106347370/46b2552b-b9b0-4162-a83d-8cc2ec2b339c)    ![Screenshot 2023-10-19 181057](https://github.com/amrhisham-95/AlphaUp/assets/106347370/f8013952-ae3d-404b-92bc-a4e333c07239)
-![Screenshot 2023-10-19 181107](https://github.com/amrhisham-95/AlphaUp/assets/106347370/d6629ccc-152d-4ab9-8bfe-ab9b55cfd541)    ![Screenshot 2023-10-19 181115](https://github.com/amrhisham-95/AlphaUp/assets/106347370/9fbd1299-a4ee-475a-b33d-09d171240ffc)
-![Screenshot 2023-10-19 181145](https://github.com/amrhisham-95/AlphaUp/assets/106347370/a70b6c5b-cb30-470a-9db5-125cfcdebc5e)    ![Screenshot 2023-10-19 181501](https://github.com/amrhisham-95/AlphaUp/assets/106347370/fad80f82-0534-4fb5-8c8e-effcef592698)
-![Screenshot 2023-10-19 181512](https://github.com/amrhisham-95/AlphaUp/assets/106347370/fa35742b-e284-47fa-a067-91368c15cd98)    ![Screenshot 2023-10-19 181549](https://github.com/amrhisham-95/AlphaUp/assets/106347370/3be65943-3ced-4395-9bb8-19a1d1066ba3)
-
+![Screenshot 2023-12-15 171353](https://github.com/amrhisham-95/uncle-Jack-s/assets/106347370/620c5c7c-864b-46ae-a70d-615de262c0de)
+![Screenshot 2023-12-15 171410](https://github.com/amrhisham-95/uncle-Jack-s/assets/106347370/5fb15712-a1d4-4366-a6aa-7203d4461aa1)
+![Screenshot 2023-12-15 171819](https://github.com/amrhisham-95/uncle-Jack-s/assets/106347370/7a4d2131-fb5d-4465-ad51-87588079f40c)
+![Screenshot 2023-12-15 171836](https://github.com/amrhisham-95/uncle-Jack-s/assets/106347370/5998d39c-faf7-4d47-a21f-13866838eff7)
+![Screenshot 2023-12-15 171846](https://github.com/amrhisham-95/uncle-Jack-s/assets/106347370/cce276e4-f195-4fc6-8e8d-43a2ce760f60)
+![Screenshot 2023-12-15 171858](https://github.com/amrhisham-95/uncle-Jack-s/assets/106347370/8f7e57ba-3239-4b2a-98db-fef3df039fd5)
+![Screenshot 2023-12-15 171909](https://github.com/amrhisham-95/uncle-Jack-s/assets/106347370/88e41706-9e7b-4499-bf93-c27b3eda6484)
+![Screenshot 2023-12-15 171932](https://github.com/amrhisham-95/uncle-Jack-s/assets/106347370/3fbf15a6-35d1-4ccf-b8d5-f1f788c896ab)
+![Screenshot 2023-12-15 172040](https://github.com/amrhisham-95/uncle-Jack-s/assets/106347370/6ed48887-b73b-4fe0-b661-f0ff2d1f0253)
 ## Architecture
 - The application was built based on the following:
 
