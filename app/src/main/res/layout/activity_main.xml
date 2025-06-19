@@ -22,7 +22,18 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:titleTextAppearance="@style/TextAppearance.AppCompat.Large" />
+            app:titleTextAppearance="@style/TextAppearance.AppCompat.Large">
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppins_bold"
+                android:text="آنكل جاكس"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+        </androidx.appcompat.widget.Toolbar>
 
 
         <androidx.fragment.app.FragmentContainerView

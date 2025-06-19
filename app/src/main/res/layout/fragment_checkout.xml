@@ -4,8 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-
+        <variable
+            name="roomViewModel"
+            type="com.amrhishammahmoud.uncleJacks.viewModels.RoomViewModel" />
     </data>
+
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/checkoutConstraintLayout"
@@ -18,6 +21,7 @@
             android:id="@+id/imageMap"
             android:layout_width="0dp"
             android:layout_height="0dp"
+            android:scaleType="fitXY"
             app:layout_constraintBottom_toTopOf="@+id/guideline124"
             app:layout_constraintEnd_toStartOf="@+id/guideline115"
             app:layout_constraintHorizontal_bias="0.0"
@@ -44,10 +48,10 @@
             android:id="@+id/latitudeText"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:fontFamily="@font/poppins_medium"
+            android:fontFamily="@font/poppins"
             android:gravity="center"
             android:textColor="#000000"
-            android:textSize="16sp"
+            android:textSize="14sp"
             app:layout_constraintBottom_toTopOf="@+id/guideline123"
             app:layout_constraintEnd_toStartOf="@+id/guideline125"
             app:layout_constraintStart_toStartOf="@+id/guideline116"
@@ -57,10 +61,10 @@
             android:id="@+id/longitudeText"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:fontFamily="@font/poppins_medium"
+            android:fontFamily="@font/poppins"
             android:gravity="center"
             android:textColor="#000000"
-            android:textSize="16sp"
+            android:textSize="14sp"
             app:layout_constraintBottom_toTopOf="@+id/guideline123"
             app:layout_constraintEnd_toStartOf="@+id/guideline121"
             app:layout_constraintStart_toEndOf="@+id/latitudeText"
@@ -84,10 +88,12 @@
             android:id="@+id/locationBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/change_selector"
+            android:background="@drawable/hover_on_buttons"
             android:fontFamily="@font/poppins_bold"
             android:gravity="center"
-            android:textSize="16sp"
+            android:text="تحديد مكانك"
+            android:textColor="@color/white"
+            android:textSize="14sp"
             app:layout_constraintBottom_toTopOf="@+id/guideline123"
             app:layout_constraintEnd_toStartOf="@+id/guideline115"
             app:layout_constraintHorizontal_bias="0.5"
@@ -113,28 +119,28 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.48" />
+            app:layout_constraintGuide_percent="0.37" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline111"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.55" />
+            app:layout_constraintGuide_percent="0.44" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline112"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.6" />
+            app:layout_constraintGuide_percent="0.49" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline113"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.65" />
+            app:layout_constraintGuide_percent="0.53" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline114"
@@ -162,21 +168,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.7" />
+            app:layout_constraintGuide_percent="0.59" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline118"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.74" />
+            app:layout_constraintGuide_percent="0.63" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline119"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.84" />
+            app:layout_constraintGuide_percent="0.73" />
 
         <TextView
             android:id="@+id/textView26"
@@ -185,7 +191,7 @@
             android:background="@drawable/hover_on_buttons"
             android:fontFamily="@font/poppins_bold"
             android:gravity="center"
-            android:text="Payment Summary"
+            android:text="ملخص الدفع"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
             app:layout_constraintBottom_toTopOf="@+id/guideline111"
@@ -200,7 +206,7 @@
             android:layout_height="0dp"
             android:fontFamily="@font/poppins_medium"
             android:gravity="center"
-            android:text="Subtotal"
+            android:text="المجموع"
             android:textColor="#000000"
             android:textSize="14sp"
             app:layout_constraintBottom_toTopOf="@+id/guideline112"
@@ -214,7 +220,7 @@
             android:layout_height="0dp"
             android:fontFamily="@font/roboto_medium"
             android:gravity="center"
-            android:text="Delivery fee"
+            android:text="رسوم التوصيل"
             android:textColor="#000000"
             android:textSize="14sp"
             app:layout_constraintBottom_toTopOf="@+id/guideline113"
@@ -228,7 +234,7 @@
             android:layout_height="0dp"
             android:fontFamily="@font/roboto_medium"
             android:gravity="center"
-            android:text="Service fee"
+            android:text="رسوم الخدمة"
             android:textColor="#000000"
             android:textSize="14sp"
             app:layout_constraintBottom_toTopOf="@+id/guideline117"
@@ -242,7 +248,7 @@
             android:layout_height="0dp"
             android:fontFamily="@font/roboto_medium"
             android:gravity="center"
-            android:text="VAT"
+            android:text="الخدمة المضافة"
             android:textColor="#000000"
             android:textSize="14sp"
             app:layout_constraintBottom_toTopOf="@+id/guideline118"
@@ -258,7 +264,7 @@
             android:background="@drawable/cart_buttons_selector"
             android:fontFamily="@font/roboto_medium"
             android:gravity="center"
-            android:text="Total amount"
+            android:text="المجموع النهائي"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
             app:layout_constraintBottom_toTopOf="@+id/guideline119"
@@ -286,7 +292,6 @@
             android:layout_height="0dp"
             android:fontFamily="@font/poppins"
             android:gravity="center"
-            android:text="10.00"
             android:textColor="#000000"
             android:textSize="14sp"
             app:layout_constraintBottom_toTopOf="@+id/guideline113"
@@ -300,7 +305,6 @@
             android:layout_height="0dp"
             android:fontFamily="@font/poppins"
             android:gravity="center"
-            android:text="3.00"
             android:textColor="#000000"
             android:textSize="14sp"
             app:layout_constraintBottom_toTopOf="@+id/guideline117"
@@ -314,7 +318,6 @@
             android:layout_height="0dp"
             android:fontFamily="@font/poppins"
             android:gravity="center"
-            android:text="7.00"
             android:textColor="#000000"
             android:textSize="14sp"
             app:layout_constraintBottom_toTopOf="@+id/guideline118"
@@ -340,7 +343,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.9" />
+            app:layout_constraintGuide_percent="0.85" />
 
         <Button
             android:id="@+id/orderBtn"
@@ -348,8 +351,8 @@
             android:layout_height="wrap_content"
             android:background="@drawable/hover_on_buttons"
             android:fontFamily="@font/poppins_bold"
-            android:text="Order"
-            android:textSize="16sp"
+            android:text="شراء الطلب"
+            android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/guideline115"
             app:layout_constraintHorizontal_bias="0.5"
@@ -362,42 +365,49 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            app:layout_constraintGuide_percent="0.7" />
+            app:layout_constraintGuide_percent="0.8" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline122"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_end="646dp" />
+            app:layout_constraintGuide_percent="0.02" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline123"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.46" />
+            app:layout_constraintGuide_percent="0.35" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline124"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.36" />
+            app:layout_constraintGuide_percent="0.25" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline125"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            app:layout_constraintGuide_percent="0.38" />
+            app:layout_constraintGuide_percent="0.42" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline126"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.41" />
+            app:layout_constraintGuide_percent="0.3" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline135"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.08" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

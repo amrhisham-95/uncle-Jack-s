@@ -8,7 +8,7 @@
 
     <fragment
         android:id="@+id/cartFragment"
-        android:name="com.example.unclejacks.fragments.CartFragment"
+        android:name="com.amrhishammahmoud.uncleJacks.fragments.CartFragment"
         android:label="CartFragment"
         tools:layout="@layout/fragment_cart">
         <action
@@ -17,7 +17,7 @@
     </fragment>
     <fragment
         android:id="@+id/checkoutFragment"
-        android:name="com.example.unclejacks.fragments.CheckoutFragment"
+        android:name="com.amrhishammahmoud.uncleJacks.fragments.CheckoutFragment"
         android:label="CheckoutFragment"
         tools:layout="@layout/fragment_checkout">
         <action

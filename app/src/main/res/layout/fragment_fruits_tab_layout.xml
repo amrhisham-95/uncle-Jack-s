@@ -7,7 +7,7 @@
     <data>
         <variable
             name="roomViewModel"
-            type="com.example.unclejacks.viewModels.RoomViewModel" />
+            type="com.amrhishammahmoud.uncleJacks.viewModels.RoomViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -20,7 +20,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/hover_on_buttons"
-            android:text="Continue Shopping"
+            android:text="إضافة مشتريات جديدة"
             android:visibility="gone"
             app:layout_constraintBottom_toTopOf="@+id/guideline86"
             app:layout_constraintEnd_toStartOf="@+id/guideline50"
@@ -80,7 +80,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.7" />
+            app:layout_constraintGuide_percent="0.68" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline54"
@@ -122,7 +122,7 @@
                 android:alpha="0.7"
                 android:fontFamily="@font/poppins_medium"
                 android:gravity="center"
-                android:text="Price (EG)"
+                android:text="السعر (جنيه)"
                 android:textColor="#000000"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toTopOf="@+id/guideline56"
@@ -242,7 +242,7 @@
                 android:background="@drawable/hover_on_buttons"
                 android:fontFamily="@font/poppins_bold"
                 android:gravity="center"
-                android:text="Add To Cart"
+                android:text="أضف إلى عربة الشراء"
                 android:textAlignment="center"
                 android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -258,7 +258,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.46" />
+            app:layout_constraintGuide_percent="0.44" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline86"

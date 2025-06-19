@@ -19,16 +19,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/hover_on_buttons"
-            android:fontFamily="@font/poppins_medium"
+            android:fontFamily="@font/roboto_bold"
             android:text="@string/let_s_start"
-            android:textSize="20sp"
-            android:visibility="visible"
+            android:textSize="24sp"
             app:layout_constraintBottom_toTopOf="@+id/guideline12"
             app:layout_constraintEnd_toStartOf="@+id/guideline11"
-            app:layout_constraintHorizontal_bias="0.57"
+            app:layout_constraintHorizontal_bias="0.588"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.971"
+            app:layout_constraintVertical_bias="1.0"
             tools:ignore="ContentDescription,ImageContrastCheck,TextContrastCheck" />
 
         <androidx.constraintlayout.widget.Guideline

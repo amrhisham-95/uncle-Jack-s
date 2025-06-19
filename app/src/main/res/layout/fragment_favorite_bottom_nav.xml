@@ -6,7 +6,7 @@
     <data>
         <variable
             name="roomViewModel"
-            type="com.example.unclejacks.viewModels.RoomViewModel" />
+            type="com.amrhishammahmoud.uncleJacks.viewModels.RoomViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -63,7 +63,7 @@
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:gravity="center"
-            android:text="Continue Shopping"
+            android:text="إضافة مشتريات جديدة"
             android:textAlignment="center"
             android:textColor="#FB6E3B"
             android:textSize="16sp"
@@ -78,7 +78,7 @@
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:gravity="center"
-            android:text="Delete Favorite Items"
+            android:text="حذف قائمتي المفضلة"
             android:textAlignment="center"
             android:textColor="#FB6E3B"
             android:textSize="16sp"

@@ -22,9 +22,9 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:tabSelectedTextAppearance="@style/tabLayoutSelected"
-            app:tabSelectedTextColor="#FB6E3B"
             app:tabTextAppearance="@style/tabLayoutNotSelected"
-            app:tabTextColor="#03041D"
+            app:tabSelectedTextColor="#FB6E3B"
+            app:tabTextColor="#000000"
             tools:ignore="SpeakableTextPresentCheck" />
 
         <androidx.viewpager.widget.ViewPager

@@ -4,7 +4,7 @@
 
     <item
         android:id="@+id/signOutItem"
-        android:title="Sign Out"
+        android:title="تسجيل خروج"
         />
 
 
