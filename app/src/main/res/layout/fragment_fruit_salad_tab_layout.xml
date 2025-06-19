@@ -58,16 +58,6 @@
             android:orientation="horizontal"
             app:layout_constraintGuide_percent="0.77" />
 
-        <Spinner
-            android:id="@+id/spinnerFruitType"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            app:layout_constraintBottom_toTopOf="@+id/guideline74"
-            app:layout_constraintEnd_toStartOf="@+id/guideline95"
-            app:layout_constraintStart_toStartOf="@+id/guideline92"
-            app:layout_constraintTop_toTopOf="@+id/guideline89"
-            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
-
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/floatingActionButtonPlusSalad"
             android:layout_width="wrap_content"
@@ -160,7 +150,7 @@
             android:alpha="0.7"
             android:fontFamily="@font/poppins_medium"
             android:gravity="center"
-            android:text="Price (EG)"
+            android:text="السعر (جنيه)"
             android:textColor="#000000"
             android:textSize="20sp"
             app:layout_constraintBottom_toTopOf="@+id/guideline82"
@@ -228,7 +218,7 @@
             android:background="@drawable/hover_on_buttons"
             android:fontFamily="@font/poppins_bold"
             android:gravity="center"
-            android:text="Add To Cart"
+            android:text="أضف إلى عربة الشراء"
             android:textAlignment="center"
             android:textSize="20sp"
             android:textStyle="bold"
@@ -264,7 +254,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.68" />
+            app:layout_constraintGuide_percent="0.77" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline90"

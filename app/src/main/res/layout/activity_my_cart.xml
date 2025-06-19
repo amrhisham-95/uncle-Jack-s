@@ -37,6 +37,6 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/toolbarContent"
                 app:navGraph="@navigation/main_nav_graph_cart" />
-
         </androidx.constraintlayout.widget.ConstraintLayout>
+
 </layout>

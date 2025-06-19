@@ -14,12 +14,12 @@
 
     <style name="tabLayoutSelected">
         <item name="android:fontFamily">@font/poppins_bold</item>
-        <item name="android:textSize">30sp</item>
+        <item name="android:textSize">28sp</item>
     </style>
 
     <style name="tabLayoutNotSelected">
-        <item name="android:fontFamily">@font/poppins</item>
-        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">12sp</item>
     </style>
 
 </resources>

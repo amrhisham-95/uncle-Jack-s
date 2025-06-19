@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/cartCustomLayout"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="200dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -29,57 +29,59 @@
             app:layout_constraintGuide_percent="0.42" />
 
         <TextView
-            android:id="@+id/priceItem"
+            android:id="@+id/textView15"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="12dp"
-            android:fontFamily="@font/poppins_medium"
+            android:layout_marginStart="92dp"
+            android:fontFamily="@font/roboto"
             android:gravity="center|center_vertical"
             android:paddingTop="2dp"
-            android:text="100"
+            android:text="جنيه"
             android:textColor="#000000"
-            android:textSize="18sp"
+            android:textSize="20sp"
             app:layout_constraintBottom_toTopOf="@+id/quantityText"
             app:layout_constraintStart_toStartOf="@+id/guideline70"
             app:layout_constraintTop_toTopOf="@+id/guideline63"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintVertical_bias="0.727" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline63"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.38" />
+            app:layout_constraintGuide_percent="0.45" />
 
         <TextView
             android:id="@+id/quantityText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/poppins_medium"
+            android:fontFamily="@font/roboto"
             android:gravity="center_vertical"
-            android:text="25"
+            android:text="25  كيلو جرام"
             android:textColor="#000000"
-            android:textSize="16sp"
+            android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/guideline67"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="@+id/priceItem"
+            app:layout_constraintEnd_toEndOf="@+id/priceItem"
+            app:layout_constraintHorizontal_bias="0.67"
+            app:layout_constraintStart_toStartOf="@+id/textView15"
             app:layout_constraintTop_toTopOf="@+id/guideline63"
-            app:layout_constraintVertical_bias="0.97" />
+            app:layout_constraintVertical_bias="0.772" />
 
         <TextView
             android:id="@+id/titleName"
             android:layout_width="0dp"
             android:layout_height="0dp"
+            android:background="@drawable/cart_name_background"
             android:fontFamily="@font/poppins_bold"
-            android:gravity="center_vertical"
+            android:gravity="center|center_vertical"
             android:paddingStart="10dp"
-            android:text="Banana"
+            android:paddingEnd="10dp"
+            android:text="    زبادي فراولة-توت بنفسجي-حليب فواكه-زبادي توت-ليمون نعناع-حليب زبيب-شانكي مانكي-آيس كيك ف "
             android:textColor="#353535"
-            android:textSize="20sp"
+            android:textSize="16sp"
             app:layout_constraintBottom_toTopOf="@+id/guideline63"
             app:layout_constraintEnd_toStartOf="@+id/guideline67"
-            app:layout_constraintStart_toStartOf="@+id/guideline70"
+            app:layout_constraintStart_toStartOf="@+id/guideline68"
             app:layout_constraintTop_toTopOf="@+id/guideline62" />
 
         <androidx.constraintlayout.widget.Guideline
@@ -90,18 +92,18 @@
             app:layout_constraintGuide_percent="0.1" />
 
         <TextView
-            android:id="@+id/textView15"
-            android:layout_width="25dp"
+            android:id="@+id/priceItem"
+            android:layout_width="wrap_content"
             android:layout_height="29dp"
-            android:layout_marginEnd="88dp"
+            android:layout_marginTop="24dp"
             android:fontFamily="@font/roboto_medium"
             android:gravity="center|center_vertical"
-            android:text="EG"
+            android:text="100"
             android:textColor="#353535"
-            android:textSize="16sp"
+            android:textSize="20sp"
             app:layout_constraintEnd_toStartOf="@+id/guideline67"
-            app:layout_constraintHorizontal_bias="0.181"
-            app:layout_constraintStart_toEndOf="@+id/priceItem"
+            app:layout_constraintHorizontal_bias="0.175"
+            app:layout_constraintStart_toEndOf="@+id/textView15"
             app:layout_constraintTop_toTopOf="@+id/guideline63" />
 
         <androidx.constraintlayout.widget.Guideline
@@ -118,23 +120,45 @@
             android:orientation="vertical"
             app:layout_constraintGuide_percent="0.95" />
 
-        <ImageView
+        <androidx.cardview.widget.CardView
             android:id="@+id/cartImage"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:background="#FFFFFF"
-            android:scaleType="fitXY"
+            app:cardCornerRadius="250dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/guideline69"
-            app:layout_constraintStart_toStartOf="@+id/guideline68"
-            app:layout_constraintTop_toTopOf="@+id/guideline62" />
+            app:layout_constraintStart_toStartOf="@+id/guideline134"
+            app:layout_constraintTop_toTopOf="@+id/guideline133">
+
+            <ImageView
+                android:id="@+id/itemPicCardViewCart"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/applepic" />
+        </androidx.cardview.widget.CardView>
+
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline69"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            app:layout_constraintGuide_percent="0.35" />
+            app:layout_constraintGuide_percent="0.5" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline133"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.48" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline134"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.08" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

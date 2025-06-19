@@ -24,10 +24,12 @@
             android:id="@+id/imageView4"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            app:layout_constraintBottom_toTopOf="@+id/guideline75"
+            app:layout_constraintBottom_toTopOf="@+id/guideline100"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/guideline99"
+            app:layout_constraintVertical_bias="1.0"
             app:srcCompat="@drawable/icecream" />
 
         <androidx.constraintlayout.widget.Guideline
@@ -43,16 +45,102 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.73" />
+            app:layout_constraintGuide_percent="0.75" />
 
         <Spinner
-            android:id="@+id/spinnerIcecreamType"
+            android:id="@+id/spinnerIcecreamType1"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            app:layout_constraintBottom_toTopOf="@+id/guideline72"
-            app:layout_constraintEnd_toStartOf="@+id/guideline93"
+            android:visibility="gone"
+            android:backgroundTint="@color/yellow"
+            app:layout_constraintBottom_toTopOf="@+id/guideline8"
+            app:layout_constraintEnd_toStartOf="@+id/guideline21"
             app:layout_constraintStart_toStartOf="@+id/guideline94"
             app:layout_constraintTop_toTopOf="@+id/guideline75"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <Spinner
+            android:id="@+id/spinnerIcecreamType3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            android:backgroundTint="@color/yellow"
+            app:layout_constraintBottom_toTopOf="@+id/guideline22"
+            app:layout_constraintEnd_toStartOf="@+id/guideline21"
+            app:layout_constraintStart_toStartOf="@+id/guideline94"
+            app:layout_constraintTop_toTopOf="@+id/guideline8"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <Spinner
+            android:id="@+id/spinnerIcecreamType5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            android:backgroundTint="@color/yellow"
+            app:layout_constraintBottom_toTopOf="@+id/guideline131"
+            app:layout_constraintEnd_toStartOf="@+id/guideline21"
+            app:layout_constraintStart_toStartOf="@+id/guideline94"
+            app:layout_constraintTop_toTopOf="@+id/guideline22"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <Spinner
+            android:id="@+id/spinnerIcecreamType7"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            android:backgroundTint="@color/yellow"
+            app:layout_constraintBottom_toTopOf="@+id/guideline72"
+            app:layout_constraintEnd_toStartOf="@+id/guideline21"
+            app:layout_constraintStart_toStartOf="@+id/guideline94"
+            app:layout_constraintTop_toTopOf="@+id/guideline131"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <Spinner
+            android:id="@+id/spinnerIcecreamType2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            android:backgroundTint="@color/yellow"
+            app:layout_constraintBottom_toTopOf="@+id/guideline8"
+            app:layout_constraintEnd_toStartOf="@+id/guideline93"
+            app:layout_constraintStart_toStartOf="@+id/guideline21"
+            app:layout_constraintTop_toTopOf="@+id/guideline75"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <Spinner
+            android:id="@+id/spinnerIcecreamType4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            android:backgroundTint="@color/yellow"
+            app:layout_constraintBottom_toTopOf="@+id/guideline22"
+            app:layout_constraintEnd_toStartOf="@+id/guideline93"
+            app:layout_constraintStart_toStartOf="@+id/guideline21"
+            app:layout_constraintTop_toTopOf="@+id/guideline8"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <Spinner
+            android:id="@+id/spinnerIcecreamType6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            android:backgroundTint="@color/yellow"
+            app:layout_constraintBottom_toTopOf="@+id/guideline131"
+            app:layout_constraintEnd_toStartOf="@+id/guideline93"
+            app:layout_constraintStart_toStartOf="@+id/guideline21"
+            app:layout_constraintTop_toTopOf="@+id/guideline22"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <Spinner
+            android:id="@+id/spinnerIcecreamType8"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            android:backgroundTint="@color/yellow"
+            app:layout_constraintBottom_toTopOf="@+id/guideline72"
+            app:layout_constraintEnd_toStartOf="@+id/guideline93"
+            app:layout_constraintStart_toStartOf="@+id/guideline21"
+            app:layout_constraintTop_toTopOf="@+id/guideline131"
             tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -81,7 +169,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.8" />
+            app:layout_constraintGuide_percent="0.84" />
 
         <TextView
             android:id="@+id/numTextIcecream"
@@ -136,7 +224,7 @@
             android:alpha="0.7"
             android:fontFamily="@font/poppins_medium"
             android:gravity="center"
-            android:text="Price (EG)"
+            android:text="السعر (EG)"
             android:textColor="#000000"
             android:textSize="20sp"
             app:layout_constraintBottom_toTopOf="@+id/guideline82"
@@ -164,13 +252,136 @@
             android:id="@+id/spinnerNoOfPiecesIcecreamText"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:gravity="center"
-            android:textAlignment="center"
-            app:layout_constraintBottom_toTopOf="@+id/guideline74"
+            android:backgroundTint="@color/yellow"
+            app:layout_constraintBottom_toTopOf="@+id/guideline75"
             app:layout_constraintEnd_toStartOf="@+id/guideline93"
             app:layout_constraintStart_toStartOf="@+id/guideline94"
-            app:layout_constraintTop_toTopOf="@+id/guideline72"
+            app:layout_constraintTop_toTopOf="@+id/guideline100"
             tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/nameIcecreamText1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/guideline100"
+            app:layout_constraintEnd_toStartOf="@+id/guideline93"
+            app:layout_constraintStart_toStartOf="@+id/guideline21"
+            app:layout_constraintTop_toTopOf="@+id/guideline22" />
+
+
+        <TextView
+            android:id="@+id/nameIcecreamText2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/guideline100"
+            app:layout_constraintEnd_toStartOf="@+id/guideline93"
+            app:layout_constraintStart_toStartOf="@+id/guideline21"
+            app:layout_constraintTop_toTopOf="@+id/guideline22" />
+
+
+        <TextView
+            android:id="@+id/nameIcecreamText3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/guideline100"
+            app:layout_constraintEnd_toStartOf="@+id/guideline93"
+            app:layout_constraintStart_toStartOf="@+id/guideline21"
+            app:layout_constraintTop_toTopOf="@+id/guideline22" />
+
+        <TextView
+            android:id="@+id/nameIcecreamText4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/guideline100"
+            app:layout_constraintEnd_toStartOf="@+id/guideline93"
+            app:layout_constraintStart_toStartOf="@+id/guideline21"
+            app:layout_constraintTop_toTopOf="@+id/guideline22" />
+
+
+        <TextView
+            android:id="@+id/nameIcecreamText5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/guideline100"
+            app:layout_constraintEnd_toStartOf="@+id/guideline93"
+            app:layout_constraintStart_toStartOf="@+id/guideline21"
+            app:layout_constraintTop_toTopOf="@+id/guideline22" />
+
+
+        <TextView
+            android:id="@+id/nameIcecreamText6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/guideline100"
+            app:layout_constraintEnd_toStartOf="@+id/guideline93"
+            app:layout_constraintStart_toStartOf="@+id/guideline21"
+            app:layout_constraintTop_toTopOf="@+id/guideline22" />
+
+        <TextView
+            android:id="@+id/nameIcecreamText7"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/guideline100"
+            app:layout_constraintEnd_toStartOf="@+id/guideline93"
+            app:layout_constraintStart_toStartOf="@+id/guideline21"
+            app:layout_constraintTop_toTopOf="@+id/guideline22" />
+
+        <TextView
+            android:id="@+id/nameIcecreamText8"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/guideline100"
+            app:layout_constraintEnd_toStartOf="@+id/guideline93"
+            app:layout_constraintStart_toStartOf="@+id/guideline21"
+            app:layout_constraintTop_toTopOf="@+id/guideline22" />
 
         <TextView
             android:id="@+id/nameIcecreamText"
@@ -181,10 +392,11 @@
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="24sp"
-            app:layout_constraintBottom_toTopOf="@+id/guideline88"
-            app:layout_constraintEnd_toStartOf="@+id/guideline81"
-            app:layout_constraintStart_toStartOf="@+id/guideline73"
-            app:layout_constraintTop_toTopOf="@+id/guideline82" />
+            app:layout_constraintBottom_toTopOf="@+id/guideline74"
+            app:layout_constraintEnd_toStartOf="@+id/guideline93"
+            app:layout_constraintStart_toStartOf="@+id/guideline94"
+            app:layout_constraintTop_toTopOf="@+id/guideline72" />
+
 
         <TextView
             android:id="@+id/numOfPiecesIcecreamText"
@@ -194,10 +406,10 @@
             android:gravity="center"
             android:textAlignment="center"
             android:textColor="#000000"
-            android:textSize="24sp"
+            android:textSize="20sp"
             app:layout_constraintBottom_toTopOf="@+id/guideline88"
             app:layout_constraintEnd_toStartOf="@+id/guideline93"
-            app:layout_constraintStart_toStartOf="@+id/guideline81"
+            app:layout_constraintStart_toStartOf="@+id/guideline73"
             app:layout_constraintTop_toTopOf="@+id/guideline82" />
 
         <Button
@@ -207,30 +419,30 @@
             android:background="@drawable/hover_on_buttons"
             android:fontFamily="@font/poppins_bold"
             android:gravity="center"
-            android:text="Add To Cart"
+            android:text="أضف إلى عربة الشراء"
             android:textAlignment="center"
             android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/guideline93"
-            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/guideline94"
             app:layout_constraintTop_toTopOf="@+id/guideline88"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintVertical_bias="0.483" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline88"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.87" />
+            app:layout_constraintGuide_percent="0.89" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline75"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.53" />
+            app:layout_constraintGuide_percent="0.33" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline94"
@@ -252,6 +464,48 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             app:layout_constraintGuide_percent="0.01" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.75" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.4" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.5" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.48" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.25" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline131"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.56" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

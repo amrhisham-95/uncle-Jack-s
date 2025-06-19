@@ -4,14 +4,14 @@
 
     <item
         android:id="@+id/cartItem"
-        android:title="My Cart"
+        android:title="عربة مشترياتك"
         app:showAsAction="ifRoom"
         android:icon="@drawable/baseline_shopping_cart_24"
         />
 
     <item
         android:id="@+id/signOutItem"
-        android:title="Sign Out"
+        android:title="تسجيل خروج"
         />
 
 

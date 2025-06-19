@@ -11,19 +11,23 @@
         android:id="@+id/SignupWithEmailAddressConstraintLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#FFFFFF"
+        android:background="@drawable/loginpagelayout"
         tools:context=".fragments.SignUpWithEmailAddressFragment">
 
         <EditText
             android:id="@+id/editTextEmailAddressSignUp"
             style="@style/loginFragmentEditTextStyle"
             android:layout_margin="5dp"
-            android:fontFamily="@font/poppins"
+            android:alpha="0.8"
             android:background="@drawable/emailgroup"
+            android:fontFamily="@font/cairo_light"
             android:hint="@string/email_address"
             android:importantForAutofill="no"
-            android:alpha="0.8"
             android:inputType="textWebEmailAddress|textPersonName"
+            android:paddingStart="16sp"
+            android:paddingEnd="16sp"
+            android:gravity="center"
+            android:drawableEnd="@drawable/letter"
             app:layout_constraintBottom_toTopOf="@+id/guideline11"
             app:layout_constraintEnd_toStartOf="@+id/guideline13"
             app:layout_constraintStart_toStartOf="@+id/guideline12"
@@ -34,12 +38,16 @@
             android:id="@+id/editTextPasswordSignUp"
             style="@style/loginFragmentEditTextStyle"
             android:layout_margin="5dp"
-            android:background="@drawable/passwordgroup"
-            android:hint="@string/password"
-            android:fontFamily="@font/poppins"
             android:alpha="0.8"
+            android:background="@drawable/passwordgroup"
+            android:fontFamily="@font/cairo_light"
+            android:hint="@string/password"
             android:importantForAutofill="no"
             android:inputType="textPersonName|textPassword"
+            android:paddingStart="16sp"
+            android:paddingEnd="16sp"
+            android:gravity="center"
+            android:drawableEnd="@drawable/lock"
             app:layout_constraintBottom_toTopOf="@+id/guideline10"
             app:layout_constraintEnd_toStartOf="@+id/guideline13"
             app:layout_constraintStart_toStartOf="@+id/guideline12"
@@ -50,13 +58,17 @@
         <EditText
             android:id="@+id/editTextPhoneNumberSignUp"
             style="@style/loginFragmentEditTextStyle"
-            android:background="@drawable/phonenumbachground"
-            android:hint="Phone Number"
-            android:importantForAutofill="no"
-            android:alpha="0.8"
             android:layout_margin="5dp"
-            android:fontFamily="@font/poppins"
+            android:alpha="0.8"
+            android:background="@drawable/phonenumbachground"
+            android:fontFamily="@font/cairo_light"
+            android:hint="@string/phone_number"
+            android:importantForAutofill="no"
             android:inputType="phone"
+            android:paddingStart="16sp"
+            android:paddingEnd="16sp"
+            android:gravity="center"
+            android:drawableEnd="@drawable/mobile"
             app:layout_constraintBottom_toTopOf="@+id/guideline31"
             app:layout_constraintEnd_toStartOf="@+id/guideline13"
             app:layout_constraintStart_toStartOf="@+id/guideline12"
@@ -82,21 +94,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.3" />
+            app:layout_constraintGuide_percent="0.4" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.5" />
+            app:layout_constraintGuide_percent="0.6" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.4" />
+            app:layout_constraintGuide_percent="0.5" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline12"
@@ -117,7 +129,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.6" />
+            app:layout_constraintGuide_percent="0.7" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
