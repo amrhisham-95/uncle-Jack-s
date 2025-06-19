@@ -37,5 +37,7 @@
 
 4.I Used TabLayout, Navigation Drawer, Bottom Navigation and also Menu in this app.
 
+5.I uploaded 2 branches: an app using Ktor Server as the backend in one version, and Firebase Realtime Database as the backend in another.
+
 ## Installation
 1.Clone the app using Git or import it to Android Studio.
